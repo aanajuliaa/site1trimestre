@@ -2,26 +2,56 @@
     margin: 0px;
     padding: 0px;
 }
+    
+    body{
+        font-family: "Poppins", sans-serif;
+    }
 
 .cabecalho {
-    background-color: #253b9b;
+    background-color:#0e0e5f;
     color: white;
     display: flex;
     justify-content:left;
     align-items: end;
-    padding: 20px 0;
+    padding: 24px 0;
 }
 
 
     .cabecalho-imagem{
         width: 20%; 
+        margin-left: 3%;
+        padding: left 3%;;
 
         
     }
 
     .cabecalho-lista-item{
         display: inline-block;
-        margin: 0 16px;
-        font-size: 60px;
+        margin: 0 24px;
+        font-size: 55px;
         
     }
+
+    .escola-imagem{
+        width: 20%;
+        padding: 10px 5%;
+    }
+    
+    .escola{
+        background-image: linear-gradient(#0e0e5f,#445c9e );
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0;
+    }
+
+    .escola-div-conteudo{
+        width: 45%;
+    }
+
+    .escola-titulo{
+        padding: 30px 0;
+    }
+
+   
