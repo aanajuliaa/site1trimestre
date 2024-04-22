@@ -4,12 +4,12 @@
 }
     
     body{
-        font-family: "Poppins", sans-serif;
-    }
+     font-family: "Josefin Sans", sans-serif;
+ }
 
 .cabecalho {
-    background-color:#0e0e5f;
-    color: white;
+    background-color:#000000;
+    color:#1b206d;
     display: flex;
     justify-content:left;
     align-items: end;
@@ -18,9 +18,9 @@
 
 
     .cabecalho-imagem{
-        width: 20%; 
-        margin-left: 3%;
-        padding: left 3%;;
+        width: 25%; 
+        margin: left 0 5%;
+        padding: left 0 5%;
 
         
     }
@@ -38,7 +38,7 @@
     }
     
     .escola{
-        background-image: linear-gradient(#0e0e5f,#445c9e );
+        background-image: linear-gradient(#000000,#445c9e );
         color: white;
         display: flex;
         justify-content: center;
@@ -51,7 +51,110 @@
     }
 
     .escola-titulo{
+        margin: 10px;
         padding: 30px 0;
+        
     }
 
+    .imagem-aguas{
+        width: 23%
+    
+    }
    
+    .estudante-titulo{
+        color: #1b206d;
+        margin: 0 0%;
+        padding: 10px 40px;
+        justify-content: left;
+
+    }
+
+    .estudante-titulo-dois{
+        color: #1b206d;
+        justify-content: center;
+        margin: 0%;
+        padding: 10px 24px;
+        
+    }
+
+    .texto-um{
+        margin: 0 10%;
+        padding: 20px;
+    }
+
+
+    .estudante-divisor{
+        width: 100%;
+        background-image: linear-gradient(#445c9e,#000000);
+        color: white;
+        text-align: center;
+        align-items: center;
+       
+    }
+
+
+    .imagem-aguas-um{
+        width: 24%;
+    }
+
+    .estudante-titulo-tres{
+        color: #1b206d;
+        justify-content: center;
+        margin: 0%;
+        padding: 10px 24px;
+        
+    }
+
+    .texto-dois{
+        margin: 0 10%;
+        padding: 20px;
+    }
+    
+    .imagem-aguas-dois{
+        width: 24%;
+    }
+
+    .estudante-titulo-quatro{
+        color: #4750ca;
+        justify-content: center;
+        margin: 0%;
+        padding: 10px 24px;
+    }
+
+    .texto-tres{
+        margin: 0 10%;
+        padding: 20px;
+    }
+
+    .imagem-aguas-tres{
+        width: 19%;
+        height: 0 3%;
+    }
+
+    .estudante-titulo-cinco{
+        color: #3f4599;
+        justify-content: center;
+        margin: 0 0%;
+        padding: 10px 24px;
+    }
+
+    .texto-quatro{
+        margin: 0 10%;
+        padding: 20px;
+    }
+
+    .rodape{
+        background-color: #000000;
+        text-align: center;
+    }
+
+
+    .rodape-imagem{
+        width: 20%;
+        margin: 10px  ;
+        padding: 0px 10%;
+    }
+
+    
+
+    
