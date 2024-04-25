@@ -60,7 +60,12 @@
         width: 23%
     
     }
-   
+
+    .estudante{
+        display: flex;
+        }
+
+ 
     .estudante-titulo{
         color: #1b206d;
         margin: 0 0%;
@@ -89,7 +94,6 @@
         color: white;
         text-align: center;
         align-items: center;
-       
     }
 
 
@@ -103,6 +107,10 @@
         margin: 0%;
         padding: 10px 24px;
         
+    }
+
+    .vermelho{
+        color: red;
     }
 
     .texto-dois{
